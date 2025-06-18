@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Nested Tables</title>
+  <title>Tables in Tables</title>
   <style>
     table, th, td {
       border: 1px solid black;
@@ -23,85 +23,65 @@
   <table>
     <tr>
       <td>
-        <!-- Nested Table 1 -->
         <table>
-          <thead>
-            <tr>
-              <th>Nested Table 1</th>
-              <th>Column 1</th>
-              <th>Column 2</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Row 1</td>
-              <td>Data A</td>
-              <td>Data B</td>
-            </tr>
-          </tbody>
+          <tr>
+            <th>Nested Table 1</th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+          <tr>
+            <td>Row 1</td>
+            <td>Data A</td>
+            <td>Data B</td>
+          </tr>
         </table>
       </td>
       <td>
-        <!-- Nested Table 2 -->
         <table>
-          <thead>
-            <tr>
-              <th>Nested Table 2</th>
-              <th>Column 1</th>
-              <th>Column 2</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Row 1</td>
-              <td>Data X</td>
-              <td>Data Y</td>
-            </tr>
-          </tbody>
+          <tr>
+            <th>Nested Table 2</th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+          <tr>
+            <td>Row 1</td>
+            <td>Data X</td>
+            <td>Data Y</td>
+          </tr>
         </table>
       </td>
     </tr>
     <tr>
       <td>
-        <!-- Nested Table 3 with List -->
         <table>
-          <thead>
-            <tr>
-              <th>Nested Table 3</th>
-              <th>Items</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Row 1</td>
-              <td>
-                <ul>
-                  <li>List item 1</li>
-                  <li>List item 2</li>
-                  <li>List item 3</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
+          <tr>
+            <th>Nested Table 3</th>
+            <th>Items</th>
+          </tr>
+          <tr>
+            <td>Row 1</td>
+            <td>
+              <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+              </ul>
+            </td>
+          </tr>
         </table>
       </td>
       <td>
-        <!-- Nested Table 4 with special cell -->
         <table>
-          <thead>
-            <tr>
-              <th>Nested Table 4</th>
-              <th>Column A</th>
-              <th>Column B</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Row 1</td>
-              <td class="black-cell">HTML</td>
-              <td>Content</td>
-            </tr>
-          </tbody>
+          <tr>
+            <th>Nested Table 4</th>
+            <th>Column A</th>
+            <th>Column B</th>
+          </tr>
+          <tr>
+            <td>Row 1</td>
+            <td class="black-cell">HTML</td>
+            <td>Content</td>
+          </tr>
         </table>
       </td>
     </tr>
